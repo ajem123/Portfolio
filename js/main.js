@@ -93,7 +93,7 @@ jQuery(document).ready(function () {
 
 
         //팝업갤러리(lightbox)
-        var $gallery = new SimpleLightbox('.small-demo a', {
+        var $gallery = new SimpleLightbox('.front a', {
 
         });
 
