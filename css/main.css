@@ -1001,7 +1001,7 @@ footer {
 		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#2e2555', GradientType=0);
 		/* IE6-9 */
-		height: 190%;
+		height: 190vw;
 	}
 
 
@@ -1119,7 +1119,7 @@ footer {
 
 		width: 43%;
 		position: absolute;
-		top: 16vw;
+		top: 100vw;
 
 		animation-duration: 3s;
 		animation-name: slidein;
@@ -1137,7 +1137,7 @@ footer {
 
 		width: 40%;
 		position: absolute;
-		top: 14vw;
+		top: 90vw;
 
 		animation-duration: 3s;
 		animation-name: aa2;
