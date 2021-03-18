@@ -1269,7 +1269,7 @@ footer {
 
 		position: relative;
 		display: block;
-		margin-bottom: 33px;
+		margin-bottom: 9%;
 		/*위아래 거리*/
 		width: 100%;
 		background: #eee;
@@ -2017,11 +2017,11 @@ footer {
 
 		position: relative;
 		display: block;
-		margin-bottom: 33px;
+		margin-bottom: 29px;
 		/*위아래 거리*/
 		width: 100%;
 		background: #eee;
-		height: 30px;
+		height: 20px;
 		border-radius: 3px;
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
@@ -2041,7 +2041,7 @@ footer {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 75px;
+		width: 60px;
 		font-weight: bold;
 		font-size: 3.5vw;
 		color: #ffffff;
@@ -2058,8 +2058,8 @@ footer {
 		display: block;
 		background: rgba(0, 0, 0, 0.1);
 		padding: 0 10px;
-		height: 30px;
-		line-height: 28px;
+		height: 20px;
+		line-height: 19px;
 		/*글자 위치*/
 		-webkit-border-top-left-radius: 3px;
 		-webkit-border-bottom-left-radius: 3px;
@@ -2070,7 +2070,7 @@ footer {
 	}
 
 	.skillbar-bar {
-		height: 30px;
+		height: 20px;
 		width: 0px;
 		background: #6adcfa;
 		border-radius: 3px;
