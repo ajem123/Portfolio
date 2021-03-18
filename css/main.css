@@ -1814,7 +1814,7 @@ footer {
 	.intro_img a h2 {
 		width: 100%;
 		height: 50%;
-		margin: 88vw 0vw 0vw 0.5vw;
+		margin: 58vw 0vw 0vw 0.5vw;
 		color: black;
 		text-shadow: -2px 0 #fff,
 			0 1px #fff,
@@ -1867,7 +1867,7 @@ footer {
 
 		width: 43%;
 		position: absolute;
-		top: 16%;
+		top: 14%;
 
 		animation-duration: 3s;
 		animation-name: slidein;
@@ -1885,7 +1885,7 @@ footer {
 
 		width: 40%;
 		position: absolute;
-		top: 14%;
+		top: 12%;
 
 		animation-duration: 3s;
 		animation-name: aa2;
@@ -1912,8 +1912,8 @@ footer {
 
 	section .photo {
 		margin: 10% 0% 0% 13%;
-		width: 65%;
-		height: 30%;
+		width: 64%;
+		height: 75vw;
 		float: none;
 		position: absolute;
 		background-color: rgba(0, 0, 0, 0.6);
@@ -1924,7 +1924,7 @@ footer {
 
 	section .photo img {
 		margin: 6vw 0vw 0 0vw;
-		width: 100%;
+		width: 104%;
 	}
 
 	.title {
