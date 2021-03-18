@@ -411,7 +411,7 @@ secrion .title {
 }
 
 .title ul {
-	width: 35.1vw;
+	width: 97.1%;
 	border: 2px solid rgba(255, 255, 255, 0.8);
 	border-bottom: none;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -420,16 +420,16 @@ secrion .title {
 }
 
 .title ul li {
-	margin: 0.9vw 1.4vw;
+	margin: 2.7% 3.9%;
 	color: #fff;
 	float: left;
-	width: 280px;
-	height: 80px;
+	width: 41.7%;
+	height: 66%;
 	border: 1px solid #fff;
 	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
 	line-height: 80px;
-	font-size: 40px;
+	font-size: 250%;
 	font-weight: bold;
 	display: block;
 }
@@ -1946,7 +1946,7 @@ footer {
 	}
 
 	.title ul li {
-		margin: 5vw 4.0vw;
+		margin: 5% 4%;
 		color: #fff;
 		width: 40%;
 		height: 50%;
