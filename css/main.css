@@ -910,7 +910,729 @@ footer {
 
 /*미디어쿼리*/
 
+@media screen and (max-width:960px) {
+	/*헤더*/
+	header {
+		position: fixed;
+		z-index: 100;
+		display: flex;
+		justify-content: space-between;
+		width: 100vw;
+		height: 100px;
+	}
 
+	header .logo {
+		width: 10vw;
+		margin: 5vw;
+	}
+
+	header .menu_btn {
+		width: 7vw;
+		margin: 5vw;
+	}
+
+	nav {
+		display: none;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.6);
+
+
+	}
+
+	nav ul li {
+		display: none;
+		position: relative;
+		z-index: 101;
+
+	}
+
+	nav ul li a {
+		color: #Fff;
+		font-family: 'NeoDunggeunmo';
+		text-align: center;
+		font-size: 6vw;
+		padding: 2vw;
+		padding-top: 20vw;
+
+	}
+
+	nav .close {
+		width: 15vw;
+		position: absolute;
+		top: 20px;
+		left: 12px;
+	}
+
+	section {
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		box-sizing: border-box;
+		padding: 4%;
+	}
+
+	/*인트로 백그라운드*/
+	section.intro {
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,2e2555+100 */
+		background: #000000;
+		/* Old browsers */
+		background: -moz-linear-gradient(top, #000000 0%, #2e2555 100%);
+		/* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #000000 0%, #2e2555 100%);
+		/* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #000000 0%, #2e2555 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#2e2555', GradientType=0);
+		/* IE6-9 */
+		height: 100%;
+	}
+
+
+	/*애니메이션*/
+
+
+	.Stars {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 1;
+		position: absolute;
+		top: 1vw;
+		left: 0.30%;
+	}
+
+
+	.intro_img {
+		widows: 100%;
+		margin: 0 auto;
+		height: 100%;
+		text-align: center;
+		position: relative;
+		z-index: 98;
+	}
+
+	.rmfTL2 {
+		width: 80%;
+		left: 11vw;
+		top: 0vw;
+		position: relative;
+		z-index: 99;
+		position: absolute;
+		animation-duration: 2s;
+		animation-name: rmfTL2;
+		animation-iteration-count: 1;
+		font-weight: 100;
+	}
+
+
+	.rmfTL {
+		width: 70.5%;
+		margin-top: 5%;
+		position: absolute;
+		left: 15%;
+		animation-duration: 4s;
+		animation-name: rmfTL;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-out;
+		font-weight: 100;
+	}
+
+
+
+
+
+	.intro_img a h2 {
+		width: 100%;
+		height: 50%;
+		margin: 15vw 0vw 0vw 0.5vw;
+		color: black;
+		text-shadow: -2px 0 #fff,
+			0 1px #fff,
+			1px 0 #fff,
+			0 -1px #fff;
+		font-size: 4vw;
+		letter-spacing: 0.15vw;
+		display: 0;
+
+	}
+
+	.intro_img h3 {
+		width: 100%;
+		font-size: 3vw;
+		margin-top: 1vw;
+		text-shadow: -2px 0 #fff,
+			0 1px #fff,
+			1px 0 #fff,
+			0 -1px #fff;
+		animation-duration: 2s;
+		animation-name: h3;
+		animation-iteration-count: infinite;
+		font-weight: 100;
+	}
+
+
+
+
+
+	.fade-in-box img {
+		width: 50%
+	}
+
+	.fade-in-box {
+		margin-top: 5%;
+		width: 100%;
+		right: 0vw;
+		display: inline-block;
+		animation: fadein 5s;
+		-moz-animation: fadein 5s;
+		/* Firefox */
+		-webkit-animation: fadein 5s;
+		/* Safari and Chrome */
+		-o-animation: fadein 5s;
+		/* Opera */
+	}
+
+
+
+
+
+
+
+	.aa1 {
+
+		width: 43%;
+		position: absolute;
+		top: 50vw;
+
+		animation-duration: 3s;
+		animation-name: slidein;
+		animation-iteration-count: 1;
+		/* 반복 횟수 infinite */
+		animation-fill-mode: forwards;
+	}
+
+
+
+
+
+
+	.aa2 {
+
+		width: 40%;
+		position: absolute;
+		top: 50vw;
+
+		animation-duration: 3s;
+		animation-name: aa2;
+		animation-iteration-count: 1;
+		/* 반복 횟수 infinite*/
+		animation-fill-mode: forwards;
+	}
+
+
+
+
+
+
+	/*프로필*/
+
+	section.profile {
+	background-image: url(../img/B2.jpg);
+	overflow: hidden;
+	height: 103%;
+
+}
+
+section .photo {
+	width: 50%;
+	float: left;
+	margin: 47% 0% 0 0%;
+
+}
+
+secrion .title {
+	width: 100%;
+	height: 50px;
+}
+
+.title {
+	margin-top: 30vw;
+	margin-left: 55vw;
+}
+
+.title ul {
+	width: 95.5%;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+	border-bottom: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 6vw;
+
+}
+
+.title ul li {
+	margin: 2.7% 3.8%;
+	color: #fff;
+	float: left;
+	width: 41.8%;
+	height: 66%;
+	border: 1px solid #fff;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	line-height: 40px;
+	font-size: 150%;
+	font-weight: bold;
+	display: block;
+}
+
+.title ul li.active {
+	color: #ffaacc;
+}
+
+.content {
+	margin-left: 55vw;
+	width: 38.5%;
+	height: 50%;
+	position: relative;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content .m1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 2vw;
+	padding-top: 3vw;
+	color: #fff;
+	font-size: 1.5vw;
+	line-height: 3vw;
+}
+
+.content .m1 p {
+	color: #fff;
+	font-size: 1.4vw;
+	line-height: 3vw;
+}
+
+.content .m1 samp {
+	font-family: 'NeoDunggeunmo';
+	color: #ffaacc;
+}
+
+/*skill*/
+.content .m2 {
+	font-family: 'NeoDunggeunmo';
+	margin: 0 auto;
+	width: 90%;
+	line-height: 5vw;
+	margin-top: 5vw;
+
+}
+
+/*.skillbar img {
+	width: 38px;
+	height: 38px;
+	float: left;
+}*/
+
+p {
+	color: #525252;
+	font-size: 12px;
+}
+
+.skillbar {
+
+	position: relative;
+	display: block;
+	margin-bottom: 45px;
+	/*위아래 거리*/
+	width: 100%;
+	background: #eee;
+	height: 45px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-ms-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	-webkit-transition-property: width, background-color;
+	-moz-transition-property: width, background-color;
+	-ms-transition-property: width, background-color;
+	-o-transition-property: width, background-color;
+	transition-property: width, background-color;
+}
+
+.skillbar-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 105px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #ffffff;
+	background: #6adcfa;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 0 20px;
+	height: 45px;
+	line-height: 44px;
+	/*글자 위치*/
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+	height: 45px;
+	width: 0px;
+	background: #6adcfa;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	transition: width 2s;
+}
+
+.sk1.active {
+	width: 80%;
+}
+
+.sk2.active {
+	width: 50%;
+}
+
+.sk3.active {
+	width: 90%;
+}
+
+.sk4.active {
+	width: 85%;
+}
+
+.sk5.active {
+	width: 33%;
+}
+
+.sk6.active {
+	width: 30%;
+}
+
+.skill-bar-percent {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 11px;
+	height: 35px;
+	line-height: 35px;
+	color: #ffffff;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+	/*skill*/
+
+	/*웹*/
+	.web {
+		background-color: #0e0c1b;
+		height: 250vw;
+		position: relative;
+	}
+
+	.web .wpahr
+
+	/*h1제목*/
+		{
+		width: 50%;
+		margin: 0 auto;
+		margin: 12% 0 40% 25%;
+	}
+
+	.web .wpahr img {
+		width: 15%;
+		right: 16vw;
+	}
+
+	.web h1 {
+
+		padding-top: 0.2vw;
+		text-align: center;
+		font-size: 7vw;
+		color: #ffaacc;
+		float: left;
+	}
+
+	/*스와이퍼*/
+	.web .swiper-container {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 11vw;
+		height: 85%;
+		background-color: rgba(0, 0, 0, 0.4);
+		border: 0px solid rgba(255, 255, 255, 0.5);
+		border-radius: 1vw;
+
+	}
+
+
+	.web .swiper-wrapper {
+		margin-top: 5vw;
+	}
+
+	.web .swiper-slide {}
+
+	/*왼쪽이미지*/
+
+
+	.web .swiper-slide .swi_left {
+		width: 80%;
+	}
+
+	.web .swiper-slide .o1 {
+		width: 48%;
+		margin-left: 12vw
+	}
+
+	/*오른쪽 텍스트*/
+	.web .swiper-slide .swi_right {
+		width: 90%;
+		height: 49%;
+		background-color: rgba(0, 0, 0, 0.4);
+		border: 2px solid rgba(255, 255, 255, 0.5);
+		position: absolute;
+		margin-top: 80%;
+		margin-left: -37.7%;
+	}
+
+	.web .swiper-slide .etc {
+		width: 10vw;
+		height: 0vw;
+	}
+
+
+	.web .swiper-slide > div h2 {
+
+		text-align: center;
+		margin-bottom: 0.5vw;
+		color: #ffaacc;
+		font-size: 5vw;
+	}
+
+	.web .swiper-slide > div h3 {
+		line-height: 15vw;
+		color: #ffaacc;
+		font-size: 4vw;
+		margin-left: 2vw;
+	}
+
+	.web .swiper-slide > div p {
+		font-size: 3.9vw;
+		line-height: 9vw;
+		color: #fff;
+		margin-left: 2vw;
+	}
+
+	.web .swiper-slide > div.etc {
+		margin-top: 2vw;
+	}
+
+	.web .swiper-slide > div ul li {
+		line-height: 1.5vw;
+		display: flex;
+	}
+
+	.web .swiper-slide > div ul li b {
+		width: 5vw;
+	}
+
+
+
+	.web .swiper-slide > div ul li:nth-child(2) span {
+		width: 10vw;
+	}
+
+	.web .swiper-slide > div .slide_btn {
+		display: none;
+
+	}
+
+	.web .swiper-slide > div .slide_btn a {
+		border: 1px solid #fff;
+		border-radius: 1vw;
+		background-color: #212121;
+		color: #fff;
+		padding: 2vw 3vw;
+		font-size: 3vw;
+		margin: 1vw;
+	}
+
+	.swiper-button-next {
+		position: absolute;
+		width: 5vw;
+		top: 235vw;;
+		right: 40vw;
+	}
+
+	.swiper-button-prev {
+		position: absolute;
+		width: 5vw;
+		top: 235vw;
+		left: 40vw;
+	}
+
+	/*편집*/
+	section.editable {
+		background-color: #0e0c1b;
+		height: 340vw;
+		position: relative;
+	}
+
+	.editable h1 {
+		text-align: center;
+		font-size: 7vw;
+		color: #ffaacc;
+		margin: 1vw 0 8vw 0;
+	}
+
+	.editable ul li {
+		width: 100%;
+		position: relative;
+		z-index: 99;
+	}
+
+
+	.editable .small-demo {
+		width: 100%;
+		height: 70vw;
+	}
+
+
+	.editable .small-demo .small-img img {
+		width: 100%;
+	}
+
+
+	/*필터*/
+	.editable .small-demo .front a {
+		width: 76vw;
+		height: 63vw;
+		background-color: black;
+		color: white;
+		padding: 25vw 6.5vw;
+		text-align: center;
+		box-sizing: border-box;
+		opacity: 75%;
+		border-radius: 1vw;
+		border: 4px solid rgba(255, 255, 255, 0.8);
+		line-height: 8.5vw;
+		display: none;
+
+	}
+
+	.editable .small-demo .front h2 {
+		font-size: 6vw;
+	}
+
+
+
+	/*마우스오버*/
+	.editable .small-demo a {
+		width: 80%;
+		height: 60vw;
+		overflow: hidden;
+		border: 5px solid rgba(255, 255, 255, 0.8);
+		border-radius: 2vw;
+	}
+
+	.editable .small-demo a: img {
+		transition: all 0.5s;
+		transform: scale(1);
+	}
+
+	.editable .small-demo div:hover img {
+		transform: scale(1.1);
+	}
+
+	.editable .small-demo .front a p {
+		font-size: 4vw;
+		color: #FFF;
+
+	}
+
+	.editable .small-demo :hover .front a {
+		display: block;
+	}
+
+	.h1mig .D1 {
+		width: 5vw;
+		left: 9vw;
+		top: 2vw;
+		position: absolute;
+	}
+
+	.h1mig .D2 {
+		width: 6.5vw;
+		right: 10.5vw;
+		top: 4.5vw;
+		position: absolute;
+	}
+	
+	.rjesmsrj {
+		width: 100%;
+		height: 16vw;
+	}
+	
+	
+
+
+/*연락*/
+	section.contact {
+	background-color: #040307;
+	height: 90vw;
+}
+
+section h1 {
+	text-align: center;
+	color: #ffaacc;
+}
+
+.contact a img {
+	width: 20vw;
+	margin-top: 5vw;
+}
+
+address {
+	line-height: 15.5vw;
+}
+
+address p {
+	font-size: 4vw;
+	color: #fff;
+	font-family: 'CookieRunOTF-Bold';
+
+}
+
+address p samp {
+	color: #ffaacc;
+	font-family: 'CookieRunOTF-Bold';
+}
+}
 
 @media screen and (max-width:480px) {
 
